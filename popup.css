@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 360px;
+    max-height: 500px;
+    margin: 0;
+    overflow-y: auto;
+    background: #181818;
+    color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 16px;
+    border-bottom: 1px solid #383838;
+}
+
+h1 {
+    margin: 0 0 6px;
+    font-size: 18px;
+}
+
+header p {
+    margin: 0;
+    color: #aaa;
+    font-size: 12px;
+}
+
+#video-list {
+    padding: 10px;
+}
+
+.empty {
+    padding: 20px 10px;
+    color: #aaa;
+    text-align: center;
+}
+
+.video {
+    padding: 12px 8px;
+    border-bottom: 1px solid #383838;
+}
+
+.video-title {
+    margin-bottom: 6px;
+    font-size: 13px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+.video-channel {
+    margin-top: -3px;
+    margin-bottom: 8px;
+    color: #aaa;
+    font-size: 12px;
+    overflow-wrap: anywhere;
+}
+
+.video-position {
+    margin-bottom: 10px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+button {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.open {
+    flex: 1;
+    background: #ff0033;
+    color: white;
+}
+
+.forget {
+    background: #383838;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.85;
+}
