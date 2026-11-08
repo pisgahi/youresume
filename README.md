@@ -205,7 +205,6 @@ Your saved history may be lost if you remove the extension's data or delete the 
     
 - The extension saves playback positions periodically, so the saved timestamp may be a few seconds behind the exact point where playback stopped.
     
-
 ## Development
 
 No build process is required. The extension uses plain JavaScript, HTML, and CSS.
@@ -220,5 +219,12 @@ To test changes:
     
 4. Open a YouTube video and verify the changes.
     
-
 When debugging, Firefox's Browser Console and the YouTube page's Web Developer Tools can help identify errors.
+
+## Disclaimer
+
+You Resume is an independent, open-source project and is not affiliated with, endorsed by, or sponsored by YouTube or Google.
+
+YouTube is a trademark of Google LLC. All YouTube-related names, trademarks, and content belong to their respective owners.
+
+This extension is intended to help users keep track of their own video playback progress. It does not download or redistribute YouTube videos.
